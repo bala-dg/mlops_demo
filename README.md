@@ -46,4 +46,18 @@ git add .
 
 git commit -m "first commit"
 
+tox command -
+""" tox"""
+
+to rebuild tox -
+""" tox -r """
+
+pytest command -
+""" pytest -v"""
+
+setup commands - 
+""" pip install -e ."""
+
+build your own package command - 
+""" python setup.py sdist bdist wheel"""
 
