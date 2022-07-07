@@ -27,3 +27,4 @@ reports:
   scores: report/scores.json
   params: report/params.json
 
+webapp_model_dir: prediction_service/model/model.joblib

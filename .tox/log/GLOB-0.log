@@ -1,0 +1,33 @@
+action: GLOB, msg: packaging
+cwd: /home/asus/PycharmProjects/wine_project
+cmd: /home/asus/PycharmProjects/wine_project/venv/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing manifest file 'src.egg-info/SOURCES.txt'
+running check
+/home/asus/PycharmProjects/wine_project/venv/lib/python3.8/site-packages/setuptools/_distutils/dist.py:275: UserWarning: Unknown distribution option: 'package'
+  warnings.warn(msg)
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' should be supplied too
+
+creating src-0.0.1
+creating src-0.0.1/src.egg-info
+copying README.md -> src-0.0.1
+copying setup.py -> src-0.0.1
+copying src.egg-info/PKG-INFO -> src-0.0.1/src.egg-info
+copying src.egg-info/SOURCES.txt -> src-0.0.1/src.egg-info
+copying src.egg-info/dependency_links.txt -> src-0.0.1/src.egg-info
+copying src.egg-info/top_level.txt -> src-0.0.1/src.egg-info
+creating '.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
+adding 'src-0.0.1'
+adding 'src-0.0.1/src.egg-info'
+adding 'src-0.0.1/setup.cfg'
+adding 'src-0.0.1/PKG-INFO'
+adding 'src-0.0.1/README.md'
+adding 'src-0.0.1/setup.py'
+adding 'src-0.0.1/src.egg-info/SOURCES.txt'
+adding 'src-0.0.1/src.egg-info/PKG-INFO'
+adding 'src-0.0.1/src.egg-info/top_level.txt'
+adding 'src-0.0.1/src.egg-info/dependency_links.txt'
+removing 'src-0.0.1' (and everything under it)
